@@ -8,6 +8,7 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   text.scan(/\^un\w{0,5}ing/)
+end
 
 def words_five_letters_long(text)
   if text(/\w{5}+\s/)
